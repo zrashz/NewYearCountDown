@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background-image:url(1.avif);
+    color: #fff;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.time-section {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.time-section span {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.time-section p {
+    margin: 5px 0 0;
+    font-size: 30px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .time-section span {
+        font-size: 1.5rem;
+    }
+
+    .time-section p {
+        font-size: 0.875rem;
+    }
+}
